@@ -14,4 +14,4 @@ for t in text:
     client.send_image(text=t.strip(), image=img_data, image_alt="bacon")
     print(t.strip())
     i += 1
-    time.sleep(10)
+    time.sleep(2)
